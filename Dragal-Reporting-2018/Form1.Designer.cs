@@ -86,32 +86,32 @@
             this.sysMenu.Location = new System.Drawing.Point(0, 0);
             this.sysMenu.Name = "sysMenu";
             this.sysMenu.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.sysMenu.Size = new System.Drawing.Size(1223, 27);
+            this.sysMenu.Size = new System.Drawing.Size(1223, 24);
             this.sysMenu.TabIndex = 0;
             this.sysMenu.Text = "menuStrip1";
             // 
             // fileToolStripMenuItem
             // 
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(41, 23);
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
             this.fileToolStripMenuItem.Text = "&File";
             // 
             // editToolStripMenuItem
             // 
             this.editToolStripMenuItem.Name = "editToolStripMenuItem";
-            this.editToolStripMenuItem.Size = new System.Drawing.Size(44, 23);
+            this.editToolStripMenuItem.Size = new System.Drawing.Size(39, 20);
             this.editToolStripMenuItem.Text = "&Edit";
             // 
             // viewToolStripMenuItem
             // 
             this.viewToolStripMenuItem.Name = "viewToolStripMenuItem";
-            this.viewToolStripMenuItem.Size = new System.Drawing.Size(50, 23);
+            this.viewToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
             this.viewToolStripMenuItem.Text = "&View";
             // 
             // hELPToolStripMenuItem
             // 
             this.hELPToolStripMenuItem.Name = "hELPToolStripMenuItem";
-            this.hELPToolStripMenuItem.Size = new System.Drawing.Size(49, 23);
+            this.hELPToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
             this.hELPToolStripMenuItem.Text = "&Help";
             // 
             // lCtnrToolStrip
@@ -120,16 +120,17 @@
             // lCtnrToolStrip.ContentPanel
             // 
             this.lCtnrToolStrip.ContentPanel.Controls.Add(this.lCtnrMain);
-            this.lCtnrToolStrip.ContentPanel.Size = new System.Drawing.Size(1223, 648);
+            this.lCtnrToolStrip.ContentPanel.Size = new System.Drawing.Size(1223, 651);
             this.lCtnrToolStrip.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lCtnrToolStrip.Location = new System.Drawing.Point(0, 27);
+            this.lCtnrToolStrip.Location = new System.Drawing.Point(0, 24);
             this.lCtnrToolStrip.Name = "lCtnrToolStrip";
-            this.lCtnrToolStrip.Size = new System.Drawing.Size(1223, 688);
+            this.lCtnrToolStrip.Size = new System.Drawing.Size(1223, 691);
             this.lCtnrToolStrip.TabIndex = 1;
             this.lCtnrToolStrip.Text = "toolStripContainer1";
             // 
             // lCtnrToolStrip.TopToolStripPanel
             // 
+            this.lCtnrToolStrip.TopToolStripPanel.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.lCtnrToolStrip.TopToolStripPanel.Controls.Add(this.sysBasicTs);
             this.lCtnrToolStrip.TopToolStripPanel.MinimumSize = new System.Drawing.Size(40, 40);
             // 
@@ -146,7 +147,7 @@
             // lCtnrMain.Panel2
             // 
             this.lCtnrMain.Panel2.Controls.Add(this.lCtnrDataMessg);
-            this.lCtnrMain.Size = new System.Drawing.Size(1223, 648);
+            this.lCtnrMain.Size = new System.Drawing.Size(1223, 651);
             this.lCtnrMain.SplitterDistance = 407;
             this.lCtnrMain.TabIndex = 0;
             // 
@@ -158,7 +159,7 @@
             this.tabControl1.Location = new System.Drawing.Point(0, 0);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(407, 648);
+            this.tabControl1.Size = new System.Drawing.Size(407, 651);
             this.tabControl1.TabIndex = 0;
             // 
             // lCtnrExplorTc
@@ -167,15 +168,16 @@
             this.lCtnrExplorTc.Location = new System.Drawing.Point(4, 22);
             this.lCtnrExplorTc.Name = "lCtnrExplorTc";
             this.lCtnrExplorTc.Padding = new System.Windows.Forms.Padding(3);
-            this.lCtnrExplorTc.Size = new System.Drawing.Size(399, 622);
+            this.lCtnrExplorTc.Size = new System.Drawing.Size(399, 625);
             this.lCtnrExplorTc.TabIndex = 0;
             this.lCtnrExplorTc.Text = "Data Explorer";
             this.lCtnrExplorTc.UseVisualStyleBackColor = true;
             // 
             // sysExploreTs
             // 
+            this.sysExploreTs.BackColor = System.Drawing.Color.LightSteelBlue;
             this.sysExploreTs.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden;
-            this.sysExploreTs.ImageScalingSize = new System.Drawing.Size(18, 18);
+            this.sysExploreTs.ImageScalingSize = new System.Drawing.Size(30, 30);
             this.sysExploreTs.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripButton5,
             this.toolStripButton6,
@@ -239,8 +241,8 @@
             // lCtnrDataMessg.Panel2
             // 
             this.lCtnrDataMessg.Panel2.Controls.Add(this.tabControl3);
-            this.lCtnrDataMessg.Size = new System.Drawing.Size(812, 648);
-            this.lCtnrDataMessg.SplitterDistance = 385;
+            this.lCtnrDataMessg.Size = new System.Drawing.Size(812, 651);
+            this.lCtnrDataMessg.SplitterDistance = 373;
             this.lCtnrDataMessg.TabIndex = 0;
             // 
             // tabControl2
@@ -251,7 +253,7 @@
             this.tabControl2.Location = new System.Drawing.Point(0, 0);
             this.tabControl2.Name = "tabControl2";
             this.tabControl2.SelectedIndex = 0;
-            this.tabControl2.Size = new System.Drawing.Size(812, 385);
+            this.tabControl2.Size = new System.Drawing.Size(812, 373);
             this.tabControl2.TabIndex = 0;
             // 
             // tabPage3
@@ -259,7 +261,7 @@
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(804, 359);
+            this.tabPage3.Size = new System.Drawing.Size(804, 347);
             this.tabPage3.TabIndex = 0;
             this.tabPage3.Text = "tabPage3";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -282,7 +284,7 @@
             this.tabControl3.Location = new System.Drawing.Point(0, 0);
             this.tabControl3.Name = "tabControl3";
             this.tabControl3.SelectedIndex = 0;
-            this.tabControl3.Size = new System.Drawing.Size(812, 259);
+            this.tabControl3.Size = new System.Drawing.Size(812, 274);
             this.tabControl3.TabIndex = 0;
             // 
             // tabPage5
@@ -290,7 +292,7 @@
             this.tabPage5.Location = new System.Drawing.Point(4, 22);
             this.tabPage5.Name = "tabPage5";
             this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage5.Size = new System.Drawing.Size(804, 233);
+            this.tabPage5.Size = new System.Drawing.Size(804, 248);
             this.tabPage5.TabIndex = 0;
             this.tabPage5.Text = "tabPage5";
             this.tabPage5.UseVisualStyleBackColor = true;
@@ -307,8 +309,9 @@
             // 
             // sysBasicTs
             // 
+            this.sysBasicTs.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.sysBasicTs.Dock = System.Windows.Forms.DockStyle.None;
-            this.sysBasicTs.ImageScalingSize = new System.Drawing.Size(18, 18);
+            this.sysBasicTs.ImageScalingSize = new System.Drawing.Size(30, 30);
             this.sysBasicTs.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.sysBasicNewBtn,
             this.toolStripButton2,
@@ -316,7 +319,7 @@
             this.toolStripButton4});
             this.sysBasicTs.Location = new System.Drawing.Point(3, 0);
             this.sysBasicTs.Name = "sysBasicTs";
-            this.sysBasicTs.Size = new System.Drawing.Size(138, 25);
+            this.sysBasicTs.Size = new System.Drawing.Size(148, 37);
             this.sysBasicTs.TabIndex = 0;
             // 
             // sysBasicNewBtn
@@ -325,7 +328,7 @@
             this.sysBasicNewBtn.Image = ((System.Drawing.Image)(resources.GetObject("sysBasicNewBtn.Image")));
             this.sysBasicNewBtn.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.sysBasicNewBtn.Name = "sysBasicNewBtn";
-            this.sysBasicNewBtn.Size = new System.Drawing.Size(23, 22);
+            this.sysBasicNewBtn.Size = new System.Drawing.Size(34, 34);
             this.sysBasicNewBtn.Text = "New Report";
             // 
             // toolStripButton2
@@ -334,7 +337,7 @@
             this.toolStripButton2.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton2.Image")));
             this.toolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton2.Name = "toolStripButton2";
-            this.toolStripButton2.Size = new System.Drawing.Size(23, 22);
+            this.toolStripButton2.Size = new System.Drawing.Size(34, 34);
             this.toolStripButton2.Text = "Open Report";
             this.toolStripButton2.ToolTipText = "sysBasicOpenBtn";
             // 
@@ -344,7 +347,7 @@
             this.toolStripButton3.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton3.Image")));
             this.toolStripButton3.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton3.Name = "toolStripButton3";
-            this.toolStripButton3.Size = new System.Drawing.Size(23, 22);
+            this.toolStripButton3.Size = new System.Drawing.Size(34, 34);
             this.toolStripButton3.Text = "Save Report";
             // 
             // toolStripButton4
@@ -353,7 +356,7 @@
             this.toolStripButton4.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton4.Image")));
             this.toolStripButton4.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton4.Name = "toolStripButton4";
-            this.toolStripButton4.Size = new System.Drawing.Size(23, 22);
+            this.toolStripButton4.Size = new System.Drawing.Size(34, 34);
             this.toolStripButton4.Text = "toolStripButton4";
             // 
             // Form1
