@@ -38,6 +38,7 @@
             this.lCtnrMain = new System.Windows.Forms.SplitContainer();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.lCtnrExplorTc = new System.Windows.Forms.TabPage();
+            this.textControl1 = new TXTextControl.TextControl();
             this.sysExploreTs = new System.Windows.Forms.ToolStrip();
             this.toolStripButton5 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton6 = new System.Windows.Forms.ToolStripButton();
@@ -55,6 +56,7 @@
             this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton3 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton4 = new System.Windows.Forms.ToolStripButton();
+            this.rulerBar1 = new TXTextControl.RulerBar();
             this.sysMenu.SuspendLayout();
             this.lCtnrToolStrip.ContentPanel.SuspendLayout();
             this.lCtnrToolStrip.TopToolStripPanel.SuspendLayout();
@@ -71,6 +73,7 @@
             this.lCtnrDataMessg.Panel2.SuspendLayout();
             this.lCtnrDataMessg.SuspendLayout();
             this.tabControl2.SuspendLayout();
+            this.tabPage4.SuspendLayout();
             this.tabControl3.SuspendLayout();
             this.sysBasicTs.SuspendLayout();
             this.SuspendLayout();
@@ -172,6 +175,17 @@
             this.lCtnrExplorTc.Text = "Data Explorer";
             this.lCtnrExplorTc.UseVisualStyleBackColor = true;
             // 
+            // textControl1
+            // 
+            this.textControl1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textControl1.Font = new System.Drawing.Font("Arial", 10F);
+            this.textControl1.Location = new System.Drawing.Point(3, 28);
+            this.textControl1.Name = "textControl1";
+            this.textControl1.Size = new System.Drawing.Size(798, 328);
+            this.textControl1.TabIndex = 1;
+            this.textControl1.Text = "textControl1";
+            this.textControl1.UserNames = null;
+            // 
             // sysExploreTs
             // 
             this.sysExploreTs.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden;
@@ -266,6 +280,8 @@
             // 
             // tabPage4
             // 
+            this.tabPage4.Controls.Add(this.textControl1);
+            this.tabPage4.Controls.Add(this.rulerBar1);
             this.tabPage4.Location = new System.Drawing.Point(4, 22);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
@@ -316,7 +332,7 @@
             this.toolStripButton4});
             this.sysBasicTs.Location = new System.Drawing.Point(3, 0);
             this.sysBasicTs.Name = "sysBasicTs";
-            this.sysBasicTs.Size = new System.Drawing.Size(138, 25);
+            this.sysBasicTs.Size = new System.Drawing.Size(104, 25);
             this.sysBasicTs.TabIndex = 0;
             // 
             // sysBasicNewBtn
@@ -356,6 +372,15 @@
             this.toolStripButton4.Size = new System.Drawing.Size(23, 22);
             this.toolStripButton4.Text = "toolStripButton4";
             // 
+            // rulerBar1
+            // 
+            this.rulerBar1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.rulerBar1.Location = new System.Drawing.Point(3, 3);
+            this.rulerBar1.Name = "rulerBar1";
+            this.rulerBar1.Size = new System.Drawing.Size(798, 25);
+            this.rulerBar1.TabIndex = 2;
+            this.rulerBar1.Text = "rulerBar1";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -386,6 +411,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.lCtnrDataMessg)).EndInit();
             this.lCtnrDataMessg.ResumeLayout(false);
             this.tabControl2.ResumeLayout(false);
+            this.tabPage4.ResumeLayout(false);
             this.tabControl3.ResumeLayout(false);
             this.sysBasicTs.ResumeLayout(false);
             this.sysBasicTs.PerformLayout();
@@ -422,6 +448,8 @@
         private System.Windows.Forms.ToolStripButton toolStripButton5;
         private System.Windows.Forms.ToolStripButton toolStripButton6;
         private System.Windows.Forms.ToolStripButton sysExploreCtnrTs;
+        private TXTextControl.TextControl textControl1;
+        private TXTextControl.RulerBar rulerBar1;
     }
 }
 
